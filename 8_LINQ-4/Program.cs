@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -104,8 +104,8 @@ namespace LINQ4
             Power = force;
         }
 
-        public string Name { get; set; }
-        public int Level { get; set; }
-        public int Power { get; set; }
+        public string Name { get; private set; }
+        public int Level { get; private set; }
+        public int Power { get; private set; }
     }
 }
